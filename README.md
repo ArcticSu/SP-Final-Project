@@ -1,6 +1,9 @@
 # SP-Final-Project
 The code and data for SP Final Project
 
+## Data
+Those csv files under the same folder with name "combined" in them are what you need. I realized that this version of github can be too crowded, so this is just our first version. I can upload a clean version in the near future.
+
 ## Data Processing
 All the process for data processing is in the "final_project.ipynb"
 

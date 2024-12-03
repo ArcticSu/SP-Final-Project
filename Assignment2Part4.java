@@ -11,7 +11,7 @@ public class Assignment2Part4 {
 
     public static void main(String[] args) {
         try {
-            String filePath = "D:\\UVA\\CS6762\\final-project\\combined_slice4.csv"; 
+            String filePath = "C:\\Users\\student\\Documents\\SPMLC\\SP-Final-Project\\both-combined_slice4.csv"; 
             csvData = MyWekaUtils.readCSV(filePath);
             if (csvData == null) {
                 System.out.println("Failed to read CSV data.");
@@ -78,6 +78,6 @@ public class Assignment2Part4 {
 
     private static double classifyFeatures(int[] featureIndices) throws Exception {
         String arffData = MyWekaUtils.csvToArff(csvData, featureIndices);
-        return MyWekaUtils.classify(arffData, 2); // use decision tree classifier
+        return MyWekaUtils.classify(arffData, 5); // use decision tree classifier
     }
 }

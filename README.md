@@ -4,7 +4,7 @@ The code and data for SP Final Project. This code takes data from the Wada app a
 ## Specific Code Information for Final Project
 All data processing tasks, including creating time slices and merging files to generate datasets for the left wrist and the combined left and right wrist data, are organized within **"final_project.ipynb"**.
 
-The code used to find the best time slices and evaluate each classifier with all the features is located in **"Assignment2part3.java"**.
+The code used to find the best time slices and evaluate each classifier with all the features is located in **"Assignment2part2.java"** and **"Assignment2part3.java"**.
 
 The code used to perform Sequential Feature Selection on each classifier is located in **"Assignment2part4.java"**.
 
